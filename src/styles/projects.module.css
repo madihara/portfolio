@@ -1,0 +1,25 @@
+@import '../basestyles.css';
+
+.container{
+  margin: 0 3rem;
+  display:flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+section{
+  text-align: center;
+}
+
+
+img{
+  height:400px;
+}
+
+.container h1{
+  font-size: 1rem;
+}
+
+.card{
+  margin: 3rem 0;
+}

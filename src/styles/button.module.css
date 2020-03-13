@@ -1,0 +1,26 @@
+@import '../basestyles.css';
+
+.container{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background-color: var(--mainColor);
+  position: fixed;
+  bottom: 30px;
+  right: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 8px #848484;
+}
+
+.container a{
+  text-decoration: none;
+  color: white;
+}
+
+.container:hover{
+  transform: scale(1.1);
+}
+

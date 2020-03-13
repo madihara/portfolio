@@ -1,0 +1,62 @@
+@import '../basestyles.css';
+
+
+
+.container{
+  text-align: center;
+}
+
+main h1{
+  color: #355e3b ;
+}
+
+/*
+
+.container{
+  height: 100%;
+}
+
+main{
+  position: relative;
+  display:flex;
+  justify-content: space-between;
+}
+
+h1{
+  font-size: 30rem;
+}
+
+.bubbleWrap{
+  filter: drop-shadow(-1px 6px 3px #515151);
+}
+.mainBubble{
+  background-color: #42EADDFF;
+  height: 400px;
+  width: 650px;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 31% 80%, 11% 100%, 14% 80%, 0 80%);
+  border-radius: 2px;
+  margin: 0 1rem;
+}
+
+.bubbleBox{
+  height: 500px;
+  display: flex;
+  justify-content: center;
+
+}
+.secondBubble{
+  background-color: #FFCC00;
+  height: 200px;
+  width: 350px;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 78% 85%, 79% 100%, 68% 85%, 0 85%);
+}
+
+.thirdBubble{
+  background-color: #ff007f;
+  color: white;
+  height: 150px;
+  width: 280px;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 78% 85%, 79% 100%, 68% 85%, 0 85%);
+}
+
+*/
