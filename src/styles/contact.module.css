@@ -1,8 +1,14 @@
 @import '../basestyles.css';
 
+.center{
+  display: flex;
+  justify-content: center;
+}
 .container{
   padding: 4rem;
   display: block;
+  max-width: 650px;
+
 }
 
 .title{

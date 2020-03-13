@@ -17,7 +17,7 @@ const NavBar = () => {
               <a href="#projects">projects</a>
             </li>
             <li>
-              <a href="contact">contact</a>
+              <a href="#contact">contact</a>
             </li>
           </ul>
         </nav>

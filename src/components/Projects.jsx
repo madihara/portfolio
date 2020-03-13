@@ -27,11 +27,12 @@ const Projects = () => {
   ]
   return (
     <section>
-      <h2>My Projects</h2>
+      <a id="projects"></a>
+      <h2 className={styles.title}>My Projects</h2>
       <div className={styles.container}>
 
         <div>
-          {projects.map((project, index) => {
+          {projects.map((project) => {
             return (
               <div className={styles.card}>
                 <img alt={project.name} className={styles.image} src={project.image} />
