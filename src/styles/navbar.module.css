@@ -5,6 +5,8 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+
 }
 
 .logo{
@@ -30,4 +32,15 @@ nav li{
 }
 nav ul:last-child{
   margin-right: 1rem;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  transition: ease-in-out(3s)
+}
+
+
+a:hover{
+  color: var(--mainColor);
 }

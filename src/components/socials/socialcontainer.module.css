@@ -1,0 +1,18 @@
+.button{
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  background-color: var(--mainColor);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 8px #848484;
+  margin: 0.3rem 0;
+  padding: 0.6rem;
+  z-index: 1000;
+}
+
+.button:hover{
+  transform: scale(1.1);
+}

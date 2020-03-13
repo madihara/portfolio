@@ -5,9 +5,9 @@ import styles from '../styles/footer.module.css'
 const Footer = () => {
   return (
     <footer className={styles.container}>
-      
-        This is the footer
-      
+
+      <h5>Copyright © 2020 Madison Haradine</h5>
+
     </footer>
   )
 }

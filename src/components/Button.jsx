@@ -2,11 +2,11 @@ import React from 'react'
 
 import styles from '../styles/button.module.css'
 
-const Button = ({ id, icon }) => {
+const Button = () => {
   return (
     <span>
       <div className={styles.container}>
-        <a href={id}>{icon}</a>
+        <a href='#top'>top</a>
       </div>
     </span>
   )

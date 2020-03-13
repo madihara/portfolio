@@ -1,0 +1,11 @@
+@import '../basestyles.css';
+
+.container{
+  padding: 4rem;
+  display: block;
+}
+
+.title{
+  color: var(--mainColor);
+  font-size: 2rem;
+}

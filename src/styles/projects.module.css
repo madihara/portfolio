@@ -1,19 +1,30 @@
 @import '../basestyles.css';
 
 .container{
-  margin: 0 3rem;
+  text-align: center;
   display:flex;
   justify-content: space-around;
   flex-flow: row wrap;
 }
 
+
 section{
   text-align: center;
+  margin: 0;
+  padding: 7rem 0;
+  background-color: #e0ede2;
+  clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
+  width: 100vw;
 }
 
 
-img{
+.image{
   height:400px;
+  filter: grayscale(100%);
+}
+
+.image:hover{
+  filter:grayscale(0)
 }
 
 .container h1{
@@ -22,4 +33,5 @@ img{
 
 .card{
   margin: 3rem 0;
+
 }

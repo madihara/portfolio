@@ -11,14 +11,14 @@ const NavBar = () => {
         <nav>
           <ul>
             <li>
-              about me
-          </li>
+              <a href="#main">about</a>
+            </li>
             <li>
-              projects
-         </li>
+              <a href="#projects">projects</a>
+            </li>
             <li>
-              contact
-         </li>
+              <a href="contact">contact</a>
+            </li>
           </ul>
         </nav>
       </header>

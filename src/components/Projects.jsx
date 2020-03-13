@@ -29,21 +29,23 @@ const Projects = () => {
     <section>
       <h2>My Projects</h2>
       <div className={styles.container}>
-        {projects.map((project, index) => {
-          return (
-            <div className={styles.card}>
-              <img alt={project.name} src={project.image} />
-              <h1>
-                {project.name}
-              </h1>
-              <p>
-                {project.description}
-              </p>
-            </div>
-          )
-        })}
+
+        <div>
+          {projects.map((project, index) => {
+            return (
+              <div className={styles.card}>
+                <img alt={project.name} className={styles.image} src={project.image} />
+                <h1>
+                  {project.name}
+                </h1>
+                <p>
+                  {project.description}
+                </p>
+              </div>
+            )
+          })}
+        </div>
       </div>
-      <a href="#main">About me</a>
     </section>
   )
 }
