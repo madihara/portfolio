@@ -4,8 +4,9 @@
   text-align: center;
   display:flex;
   justify-content: space-around;
+  align-items: center;
   flex-flow: row wrap;
-  padding: 1rem;
+  padding: 1rem 6rem;
 }
 
 
@@ -15,7 +16,7 @@ section{
   padding: 7rem 0;
   background-color: #e0ede2;
   clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
-  width: 100vw;
+  /* width: 100vw; */
 }
 
 .title{
@@ -27,11 +28,7 @@ section{
 .image{
   height:400px;
   padding: 0 1rem;
-  filter: grayscale(100%);
-}
-
-.image:hover{
-  filter:grayscale(0)
+  max-width: 90vw;
 }
 
 .container h1{
@@ -41,4 +38,53 @@ section{
 .card{
   margin: 3rem;
 
+}
+
+.container ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.container ul li{
+  margin: 1rem 2rem;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container p{
+  padding: 2rem 10rem;
+}
+
+.container a{
+  cursor: pointer;
+  font-size: 1.5rem;
+  border-bottom: 2px solid black;
+}
+
+@media screen and (max-width: 768px) {
+  .image{
+    height: 250px;
+    margin: 1rem;
+  }
+
+  .container p{
+    padding: 2rem;
+  }
+
+  .container ul{
+    /* flex-direction: column; */
+    
+  }
+
+  .container ul li{
+    font-size: 1rem;
+    padding: 10px;
+  }
 }

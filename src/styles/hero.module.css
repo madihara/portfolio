@@ -20,6 +20,17 @@ main h1{
   text-align: justify;
 }
 
+@media screen and (max-width: 768px){
+  .container{
+    padding: 1rem
+  }
+
+  .text{
+    padding: 1rem 1rem 1rem 4rem;
+    text-align: left;
+  }
+}
+
 /*
 
 .container{
